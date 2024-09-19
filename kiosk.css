@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.modal-display {
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 300px;
+    overflow: auto;
+}
+
+.modal-display img{
+    width: 300px;
+}
+
+.modal-display .title{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(138, 33, 33);
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}
+
+.modal-display p{
+    font-size: 15px;
+    text-align: justify;
+}
